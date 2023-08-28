@@ -1,0 +1,26 @@
+ALGORITHM read_sentence
+VAR
+    i, j: STRING;
+    count: INTEGER := 0;
+    wordCount: INTEGER := 1;
+    vowelCount: INTEGER := 0;
+BEGIN
+    Write("type the sentence");
+    Read(j);
+    WHILE (i <> ".") DO
+        Read(i); // Read character by caracter
+
+        count := count + 1;
+        IF (i= " ") THEN
+            wordCount := wordCount + 1;
+        END_IF
+        IF (i = "a" || i = "e" || i = "u" || i = "i" || i = "O" || i = "y" || ) THEN
+            vowelCount := vowelCount + 1;
+        END_IF
+
+    END_WHILE
+    Write("the number of characters is:",count);
+    Write("the number of words is:",wordCount);
+    Write("the number of vowles is:",vowelCount);
+END
+fvfdgdfgdf fvdfvdfvdf dfvdfvdfv.&
